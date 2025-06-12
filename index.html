@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Landing Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #4CAF50, #81C784);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+    }
+    main {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #4CAF50;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #388E3C;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #f1f1f1;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Test Landing Page</h1>
+    <p>Practice ads and analytics hands-on</p>
+  </header>
+  <main>
+    <section id="offer">
+      <h2>Our Offer</h2>
+      <p>Learn how digital advertising works and how to track user behavior. Below are buttons to test your analytics setup.</p>
+      <a href="#cta1" class="btn" onclick="console.log('Clicked Learn More')">Learn More</a>
+    </section>
+
+    <section id="features">
+      <h2>Benefits</h2>
+      <ul>
+        <li>Hands-on experience with ad setup</li>
+        <li>Track button clicks with analytics</li>
+        <li>Simple and clean website structure</li>
+      </ul>
+      <a href="#cta2" class="btn" onclick="console.log('Clicked View Benefits')">View Benefits</a>
+    </section>
+
+    <section id="cta1">
+      <h2>Ready to Start?</h2>
+      <p>Click the button below to take the next step!</p>
+      <a href="#" class="btn" onclick="console.log('Clicked Get Started')">Get Started</a>
+    </section>
+
+    <section id="cta2">
+      <h2>Submit Your Request</h2>
+      <p>A form might go here later. For now, just a button:</p>
+      <a href="#" class="btn" onclick="console.log('Clicked Submit Request')">Submit Request</a>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Test Project. All rights reserved.
+  </footer>
+</body>
+</html>
